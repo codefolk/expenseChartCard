@@ -388,7 +388,9 @@ body {
     left: -7px;
     padding: 4px 2px;
 }
-
+#sunday:hover {
+    background-color: hsl(10, 79%, 70%);
+}
 #sunday:hover::before {
     display: block;
 }

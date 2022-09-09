@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Expenses chart component</title>
+  </head>
+  <body>
+    <section class="section-balance" id="totalBalane">
+      <img src="./images/logo.svg" class="icon" alt="logo" />
+      <h1>My Balance</h1>
+      <p>$921.48</p>
+    </section>
+
+    <section class="section-charts" id="balance-usage">
+      <h2>Spending - Last 7 days</h2>
+      <div class="chart-main">
+        <div id="monday"></div>
+        <div id="tuesday" ></div>
+        <div id="wednesday"></div>
+        <div id="thursday"></div>
+        <div id="friday"></div>
+        <div id="saturday"></div>
+        <div id="sunday"></div>
+        <hr>
+      </div>
+      <div class="monthly-total">
+        <p id="first-child">Total this month</p>
+        <p id="second-child">$478.33</p>
+        <p id="third-child">+2.4%</p>
+        <p id="fourth-child">from last month</p>
+      </div>
+    </section>
+  </body>
+</html>
